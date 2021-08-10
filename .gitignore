@@ -1,5 +1,5 @@
 credentials.json
 token.json
 .jovianrc
-./ipynb_checkpoints
+.ipynb_checkpoints/*
 __pycache__/
