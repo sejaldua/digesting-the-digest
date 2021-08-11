@@ -31,19 +31,18 @@ def get_data():
             token.write(creds.to_json())
 
     service = build('gmail', 'v1', credentials=creds)
-#     results = service.users().labels().list(userId='me').execute()
-#     labels = results.get('labels', [])
-    
-#     if not labels:
-#         print('No labels found.')
-#     else:
-#         print('Labels:')
-#         for label in labels:
-#             print(label['name'], label['id'])
             
     # Call the Gmail API
-    results = service.users().messages().list(userId='me',labelIds = ['Label_7938937032304597046'], maxResults=600).execute()
+    results = service.users().messages().list(userId='me',labelIds = ['Label_7938937032304597046'], maxResults=500).execute()
     messages = results.get('messages', [])
+    nextPageToken = results.get('nextPageToken')
+    resultSizeEstimate = results.get('resultSizeEstimate')
+    while len(messages) % 500 == 0:
+        results = service.users().messages().list(userId='me',labelIds = ['Label_7938937032304597046'], maxResults=500, pageToken=nextPageToken).execute()
+        new_messages = results.get('messages', [])
+        nextPageToken = results.get('nextPageToken')
+        resultSizeEstimate = results.get('resultSizeEstimate')
+        messages.extend(new_messages)
     return service, messages
 
 if __name__ == '__main__':

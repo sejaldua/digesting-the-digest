@@ -3,3 +3,4 @@ token.json
 .jovianrc
 .ipynb_checkpoints/*
 __pycache__/
+.ipynb_checkpoints/*
