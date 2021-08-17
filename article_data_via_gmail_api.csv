@@ -1,4 +1,55 @@
 Date,Title,Subtitle,Author,Publication,Minutes
+2021-08-16 11:40:00+00:00,My Favorite Pandas Method Chains,"Method chains I use (and reuse) because they're helpful and poetic, in a programmatic way",Adam Ross Nelson,Level Up Coding ,3
+2021-08-16 11:40:00+00:00,Graph Thinking,A kind of cognitive framework called graph thinking is circulating through the KGC community. So let's…,Paco Nathan,Knowledge Technologies ,6
+2021-08-16 11:40:00+00:00,Building and deploying end-to-end fake news classifier,"In this digital era of smartphones and the internet, the fake news spreads like wildfire, it looks just like…",Eish Kumar,Towards Data Science ,8
+2021-08-16 11:40:00+00:00,Top 10 Machine Learning Algorithms You Should Know in 2021,Nowadays businesses are focusing on automation. They are trying to automate all manual tasks that consume a…,Nora Winkens,Artificial Intelligence in Plain English ,4
+2021-08-16 11:40:00+00:00,Scraping Tutorial on Airbnb's Website (with Scrapy) | Scraping with 🐍,Making your first steps in automating data collection from a raw web page,Thibaud Lamothe,Geek Culture ,13
+2021-08-16 11:40:00+00:00,Top Front-End Development Trends You Should Follow in 2021,Frontend web development standards and trends change faster than they can be implemented. This makes it…,Galaxy Weblinks,Geek Culture ,4
+2021-08-16 11:40:00+00:00,Where Should You Store JSON Web Tokens (JWT)?,We have three options to store the JWT but which one is the most secure?,Naveen DA,JavaScript in Plain English ,4
+2021-08-16 11:40:00+00:00,How to detect non-English language words and remove them from your keyword…,Article about improving business insights by addressing one of the common problems faced in digital…,Sharan Biradar,MiQ Tech and Analytics ,6
+2021-08-16 11:40:00+00:00,Master Web Scraping Completely From Zero To Hero 🕸,Using Beautiful Soup and Requests Library with One  Project,Abhay Parashar,The Pythoneers ,14
+2021-08-16 11:40:00+00:00,Weekly Awesome Tricks And Best Practices From Kaggle,Easily learn what is only learned by hours of search and exploration,Bex T.,Towards Dev ,7
+2021-08-16 11:40:00+00:00,The 1Password Disaster (And Two Brilliant 1Password Alternatives),What's happened to the world's most-loved password manager?,Mark Ellis,Mac O'Clock ,5
+2021-08-15 11:40:00+00:00,4 Pandas Functions That I Wish I Knew Earlier,You don't need to reinvent the wheel.,Yong Cui,Towards Data Science ,4
+2021-08-15 11:40:00+00:00,Transform your categorical columns with imperio SmoothingTransformer,Feature engineering is the process of transforming your input data in such a way that it will be more…,Vladimir Stojoc,softplus-publication ,3
+2021-08-15 11:40:00+00:00,5 Programs for Processing PDF file with Python,"Creating, merging, locking, unlocking, and watermarking explained with code",Swathi Arun,Level Up Coding ,3
+2021-08-15 11:40:00+00:00,Introduction to Process Mining,Learn the basics of process mining and how to use process discovery algorithms in Python,Eryk Lewinson,Towards Data Science ,11
+2021-08-15 11:40:00+00:00,Create a very smart chatbot with BlenderBot,"Quite quickly, we code in Python a chatbot answering any open question",Samuel Ronce,Chatbots Life ,4
+2021-08-15 11:40:00+00:00,How much data is required for predictive modelling problems?,Keep in mind that machine learning is a process of induction. The model can only capture what it has seen.,Mohammad Nuruzzaman,DataDrivenInvestor ,3
+2021-08-15 11:40:00+00:00,NLP with Topic Modelling,Understanding why we use Topic Modelling with easy implementation.,Neel Ghoshal,CodeChef-VIT ,3
+2021-08-15 11:40:00+00:00,A Quick Guide on Building Your Audience From Scratch,There is no secret method or cheat code for growing your audience or increasing story views. Genuine audience…,Jenna N. Chambers,Creators Hub ,5
+2021-08-15 11:40:00+00:00,An Introduction to Artificial Intelligence,AI for Beginners,Shreya Sinha,Technology Hits ,7
+2021-08-15 11:40:00+00:00,Can You Solve The 666 Problem?,A Devilishly Delightful Distraction,"Adam Hrankowski, ADHD",MathAdam ,2
+2021-08-14 11:40:00+00:00,3 Another Jupyter Notebook Alternative For Data Scientist,Another set of Jupyter Alternative for your arsenals,Cornellius Yudha Wijaya,DataDrivenInvestor ,7
+2021-08-14 11:40:00+00:00,Automatic and Smart Exploratory Data Visualization with Lux & Python,Easy EDA with One line Of code,Abdishakur,Spatial Data Science ,4
+2021-08-14 11:40:00+00:00,Turn a Harry Potter Book into a Knowledge Graph,Learn how to combine Selenium and SpaCy to create a Neo4j knowledge graph of the Harry Potter universe ,Tomaz Bratanic,Neo4j Developer Blog ,9
+2021-08-14 11:40:00+00:00,How to Embed Interactive Charts on your Medium Articles and Personal Website,Two Lines of Code is All you Need to Embed your Interactive Chart for an Engaging Demonstration,Khuyen Tran,Towards Data Science ,4
+2021-08-14 11:40:00+00:00,7 DIY Data Science Project Ideas Using Your Personal Data,"As we get into the field of data science, many times, we have difficulty finding data which is structured and…",Kartik Godawat,Jovian - Data Science and Machine Learning Tutorials ,6
+2021-08-14 11:40:00+00:00,Topic Modeling - LDA Mallet Implementation in Python - Part 3,"In Part 2, we ran the model and started to analyze the results. Here, we will look at ways how topic…",Senol Kurt,The Startup ,6
+2021-08-14 11:40:00+00:00,How to Quickly Preprocess and Visualize Text Data with TextHero,"How to quickly preprocess, represent and visualize the text data in Python using TextHero library",Chetan Ambi,Towards AI ,4
+2021-08-14 11:40:00+00:00,3 Python Packages That Make Data Science Simple,1.Mito,Jake from Mito,trymito ,4
+2021-08-14 11:40:00+00:00,10 Use-Cases in everyday business operations using NLP,And how spaCy v3.0 can help you get started with these use-cases,Lars Nielsen,MLearning.ai ,7
+2021-08-14 11:40:00+00:00,How Can I Customize Jupyter Notebook Into Dark Mode,A story about customize Jupyter Notebook themes and adjust Maptlotlib parameters easily,Rizky Maulana Nurhidayat,DataDrivenInvestor ,5
+2021-08-13 11:40:00+00:00,Python Text Analysis With the Schrutepy Package,This new Python package makes text analysis fun,Brad Lindblad,Towards Data Science ,4
+2021-08-13 11:40:00+00:00,Using The Cosine Similarity and DBSCAN to Get Clusters from The Housing Data…,How many clusters are in my data set? And what are the characteristics of each cluster?,Hwa-Wei Wu,"Web Mining [IS688, Spring 2021] ",13
+2021-08-13 11:40:00+00:00,40+ Web App Ideas for Startups in 2021,"From AI-based machine learning to audio chat apps, we've got it all covered",Sophia Martin,Better Programming ,17
+2021-08-13 11:40:00+00:00,How to Perform Fraud Detection with Personalized Page Rank,Along with python package Networkx,Antoine Moreau,Sicara's blog ,3
+2021-08-13 11:40:00+00:00,Music in Python Part 2,Consonance and Dissonance Visualized,Katie He,Towards Data Science ,4
+2021-08-13 11:40:00+00:00,7 Best Github Repositories For Learning Data Science,Top GitHub Repositories That Teaches About Data,Abhay Parashar,The Pythoneers ,3
+2021-08-13 11:40:00+00:00,Sidetable: An Efficient tool to Summarize Pandas Dataframe,Essential guide to Sidetable package,Satyam Kumar,Level Up Coding ,4
+2021-08-13 11:40:00+00:00,Data Spectrometry or How to Preprocess your Data,This is the first article of a to-be series devoted to figure out a way to tackle a Machine Learning (ML)…,Simone Azeglio,MLJC ,9
+2021-08-12 11:40:00+00:00,5 Powerful Python One-Liners You Should Know,I don't know what I would do without map() function and comprehensions.,Görkem Arslan,Level Up Coding ,3
+2021-08-12 11:40:00+00:00,Machine Learning Data Visualization,Using Facets for Data Analysis & Visualization,Himanshu Sharma,Towards Data Science ,3
+2021-08-12 11:40:00+00:00,Create an Advanced Gantt Chart in Python,"How to generate a Gantt Chart which contains additional details like Departments, Percentage Completion etc.",Abhijith Chandradas,Geek Culture ,6
+2021-08-12 11:40:00+00:00,"Scraping tables from a JavaScript webpage using Selenium, BeautifulSoup, and…",A step by step tutorial for scraping tables from a JavaScript webpage,B. Chen,Analytics Vidhya ,6
+2021-08-12 11:40:00+00:00,A Primer on Data Drift,"When Machine Learning models are not relevant anymore, it might be due to underlying data drift. Here, we…",Du Phan,data from the trenches ,10
+2021-08-12 11:40:00+00:00,These are the 20 most popular tags on Medium in 2021:,"1. Startup (301,000 followers)",Terry Mansfield,ILLUMINATION ,2
+2021-08-12 11:40:00+00:00,Confusion Matrix in Machine Learning,Classification metric in supervised learning,Amit Chauhan,Analytics Vidhya ,4
+2021-08-12 11:40:00+00:00,How I taught myself tableau,Tableau is a world-class data analysis and visualization software that lets you see and understand your data…,Isha Garg,CodeX ,4
+2021-08-12 11:40:00+00:00,How to Create Percentage Plots for Visualizing Your Data in Python,With Examples Using Seaborn and Plotly Express.,Vivienne DiFrancesco,The Startup ,4
+2021-08-12 11:40:00+00:00,From Jupyter Notebook to Azure Web App in 5 Easy Steps,You have been exploring data in Jupyter Notebook and would like to share the insights. Some of your plots…,Jaunius Urbonas,Microsoft Azure ,10
+2021-08-12 11:40:00+00:00,Topic Modeling and Data Visualization with Python/Flask,I recently became interested in data visualization and topic modeling in Python. One of the problems with…,Ethan Jarrell,HackerNoon.com ,21
+2021-08-12 11:40:00+00:00,Kyrie Irving's Upside Down World,"The Brooklyn superstar lashes out against his own Nike shoe, yet continues to profit off the things he hates",Alan Chazaro,HeadFake Hoops ,6
 2021-08-11 11:40:00+00:00,Stop One-Hot Encoding your Categorical Features - Avoid Curse of Dimensionality,Techniques to Encode Categorical Features with many Levels/Categories,Satyam Kumar,The Startup ,5
 2021-08-11 11:40:00+00:00,Encoding Categorical Features,Introduction,Yang Liu,Towards Data Science ,6
 2021-08-11 11:40:00+00:00,How to Write a Headline,Insights from Medium's editorial team,Medium Creators,Creators Hub ,5
