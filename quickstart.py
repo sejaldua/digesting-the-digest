@@ -9,9 +9,8 @@ from google.oauth2.credentials import Credentials
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 def get_service():
-    """Shows basic usage of the Gmail API.
-    Lists the user's Gmail labels.
-    """
+    """Shows basic usage of the Gmail API. """
+
     creds = None
     # The file token.json stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
@@ -34,7 +33,8 @@ def get_service():
     return service
 
 def get_all_email_labels(service):
-    # print out all labels
+    """Lists the user's Gmail labels."""
+
     results = service.users().labels().list(userId='me').execute()
     labels = results.get('labels', [])
     if not labels:
@@ -55,12 +55,11 @@ def get_data(service, email_type):
     results = service.users().messages().list(userId='me',labelIds = [label], maxResults=500).execute()
     messages = results.get('messages', [])
     nextPageToken = results.get('nextPageToken')
-    resultSizeEstimate = results.get('resultSizeEstimate')
+    # use next page token to get another batch of 500 emails until all are retrieved
     while len(messages) % 500 == 0:
         results = service.users().messages().list(userId='me',labelIds = [label], maxResults=500, pageToken=nextPageToken).execute()
         new_messages = results.get('messages', [])
         nextPageToken = results.get('nextPageToken')
-        resultSizeEstimate = results.get('resultSizeEstimate')
         messages.extend(new_messages)
     return messages
 
