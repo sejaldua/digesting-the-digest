@@ -124,7 +124,7 @@ def make_wordcloud(df):
 def get_topic_model(df):
     text = cleaned_df['text'].to_list()
     dates = cleaned_df['date'].apply(lambda x: pd.Timestamp(x))
-    topic_model = BERTopic(min_topic_size=5, n_gram_range=(1,3), verbose=False)
+    topic_model = BERTopic(min_topic_size=len(text) // 100, n_gram_range=(1,3), verbose=False)
     topics, _ = topic_model.fit_transform(text)
     return text, dates, topic_model, topics
 
@@ -187,8 +187,8 @@ if df is not None:
     new_df['topic'] = new_df['text'].apply(lambda x: topic_model.find_topics(x)[0][0])
     st.write(new_df)
 
-    str_input = st.text_input('Enter a word or phrase to find nearest topic: ', value='taliban')
-    st.write(topic_model.find_topics(str_input))
+    # str_input = st.text_input('Enter a word or phrase to find nearest topic: ', value='taliban')
+    # st.write(topic_model.find_topics(str_input))
     
     num_input = st.number_input('Enter a topic number: ', value=3, min_value=0, max_value=len(topics))
     st.write(topic_model.get_representative_docs(num_input))
