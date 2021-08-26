@@ -10,6 +10,7 @@ from quickstart import get_service, get_data
 import demoji
 import nltk
 nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 import string
 from wordcloud import WordCloud
