@@ -25,3 +25,4 @@ tensorflow-text==2.2.1
 tokenizers==0.9.3
 torch==1.7.0
 transformers==3.5.1
+wordcloud
