@@ -1,5 +1,5 @@
 bertopic==0.9.0
-bokeh @ file:///opt/concourse/worker/volumes/live/65ce9588-f765-4deb-5b52-1c552a693654/volume/bokeh_1620783891289/work
+bokeh
 conda==4.10.3
 emoji==1.4.2
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0/en_core_web_sm-3.1.0-py3-none-any.whl
@@ -11,9 +11,9 @@ google-auth==1.34.0
 google-auth-httplib2==0.1.0
 google-auth-oauthlib==0.4.5
 googleapis-common-protos==1.53.0
-nltk @ file:///tmp/build/80754af9/nltk_1618327084230/work
+nltk
 numpy==1.21.2
-numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
+numpydoc
 oauth2client==4.1.3
 oauthlib==3.1.1
 pandas==1.3.1
