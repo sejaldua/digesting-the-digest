@@ -9,6 +9,7 @@ from tqdm import tqdm
 from quickstart import get_service, get_data
 import demoji
 import nltk
+nltk.download('stopwords')
 from nltk.stem import WordNetLemmatizer
 import string
 from wordcloud import WordCloud
