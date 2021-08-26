@@ -46,14 +46,15 @@ def parse_must_reads(date, msg_body):
                 continue
     return articles
 
-@st.cache
+@st.cache(suppress_st_warning=True)
 def load_data():
     service = get_service()
     messages = get_data(service, 'MIT Download')
-    print(len(messages))
+    my_bar = st.progress(0)
     data = []
-    for message in tqdm(messages):
-        
+    for i, message in enumerate(messages):
+        my_bar.progress((i+1) / len(messages))
+
         # Get an email by id
         msg = service.users().messages().get(userId='me', id=message['id'], format='full').execute()
         
@@ -119,48 +120,75 @@ def make_wordcloud(df):
     plt.axis("off")
     return fig
 
-data_load_state = st.text('Loading data...')
-data = load_data()
-data_load_state.text('Loading data... done!')
-if st.checkbox('Preview the data'):
-    st.subheader('5 rows of raw data')
-    st.write(data[:5])
+@st.cache(allow_output_mutation=True)
+def get_topic_model(df):
+    text = cleaned_df['text'].to_list()
+    dates = cleaned_df['date'].apply(lambda x: pd.Timestamp(x))
+    topic_model = BERTopic(min_topic_size=5, n_gram_range=(1,3), verbose=False)
+    topics, _ = topic_model.fit_transform(text)
+    return text, dates, topic_model, topics
 
-df = pd.DataFrame(data, columns = ['date', 'title', 'subtitle', 'source'])
-st.write(df.head())
 
-# concatenate title and subtitle columns
-data_clean_state = st.text('Cleaning data...')
-df['text'] = df[['title', 'subtitle']].agg(' '.join, axis=1)
-df['text'] = preprocess(df['text'])
-cleaned_df = df[['date', 'text']]
-data_clean_state.text('Cleaning data... done!')
+df = None
+uploaded_file = st.sidebar.file_uploader('Choose a CSV file')
+st.sidebar.caption('Make sure the csv contains a column titled "date" and a column titled "text"')
+st.sidebar.markdown("""---""")
+if uploaded_file is not None:
+    df = pd.read_csv(uploaded_file)
+    st.write(df)
+elif st.sidebar.button('Load demo data'):
+    data_load_state = st.text('Loading data...')
+    data = load_data()
+    data_load_state.text('Loading data... done!')
+    # if st.checkbox('Preview the data'):
+    #     st.subheader('5 rows of raw data')
+    #     st.write(data[:5])
 
-# st.write(df)
-# df.to_csv('must_reads_MIT_download.csv', index=False)
-# st.write(make_wordcloud(df))
+    df = pd.DataFrame(data, columns = ['date', 'title', 'subtitle', 'source'])
+    df['text'] = df[['title', 'subtitle']].agg(' '.join, axis=1)
+    st.write(df.head())
 
-# Get variables
-text = cleaned_df['text'].to_list()
-dates = cleaned_df['date'].apply(lambda x: pd.Timestamp(x))
-topic_model = BERTopic(min_topic_size=5, n_gram_range=(1,3), verbose=False)
-topics, _ = topic_model.fit_transform(text)
-freq = topic_model.get_topic_info(); 
-st.write(freq.head(10))
+if df is not None:
+    # concatenate title and subtitle columns
+    data_clean_state = st.text('Cleaning data...')
+    df['text'] = preprocess(df['text'])
+    cleaned_df = df[['date', 'text']]
+    data_clean_state.text('Cleaning data... done!')
 
-# st.write('Take a closer look at frequent topics')
-# topic_num = st.number_input('Select a topic number', min_value=0, max_value=len(freq), value=3)
-# topic_nr = freq.iloc[topic_num]["Topic"]  # We select a frequent topic
-# st.write(topic_model.get_topic(topic_nr))   # You can select a topic number as shown above
+    # st.write(df)
+    # df.to_csv('must_reads_MIT_download.csv', index=False)
+    # st.write(make_wordcloud(df))
 
-st.write(topic_model.visualize_topics())
+    tm_state = st.text('Modeling topics...')
+    text, dates, topic_model, topics = get_topic_model(cleaned_df)
+    tm_state.text('Modeling topics... done!')
 
-topics_over_time = topic_model.topics_over_time(docs=text, 
-                                                topics=topics, 
-                                                timestamps=dates, 
-                                                global_tuning=True, 
-                                                evolution_tuning=True, 
-                                                nr_bins=30)
-st.write(topic_model.visualize_topics_over_time(topics_over_time, top_n=10))
+    freq = topic_model.get_topic_info(); 
+    st.write(freq.head(10))
 
-# st.write(topic_model.visualize_barchart(top_n_topics=9, n_words=5, height=800))
+    # st.write('Take a closer look at frequent topics')
+    # topic_num = st.number_input('Select a topic number', min_value=0, max_value=len(freq), value=3)
+    # topic_nr = freq.iloc[topic_num]["Topic"]  # We select a frequent topic
+    # st.write(topic_model.get_topic(topic_nr))   # You can select a topic number as shown above
+
+    st.write(topic_model.visualize_topics())
+
+    topics_over_time = topic_model.topics_over_time(docs=text, 
+                                                    topics=topics, 
+                                                    timestamps=dates, 
+                                                    global_tuning=True, 
+                                                    evolution_tuning=True, 
+                                                    nr_bins=len(df['date'].unique()))
+    st.write(topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=10))
+
+    st.write(topic_model.visualize_barchart(top_n_topics=9, n_words=5, height=800))
+
+    new_df = cleaned_df.copy()
+    new_df['topic'] = new_df['text'].apply(lambda x: topic_model.find_topics(x)[0][0])
+    st.write(new_df)
+
+    str_input = st.text_input('Enter a word or phrase to find nearest topic: ', value='taliban')
+    st.write(topic_model.find_topics(str_input))
+    
+    num_input = st.number_input('Enter a topic number: ', value=3, min_value=0, max_value=len(topics))
+    st.write(topic_model.get_representative_docs(num_input))
