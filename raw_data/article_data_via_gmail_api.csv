@@ -1,4 +1,42 @@
 Date,Title,Subtitle,Author,Publication,Minutes
+2021-08-30 11:40:00+00:00,Towards Better Data Visualizations and Graphics,Design principles for creating data-based graphics and visuals,Prashant Mudgal,Towards Data Science ,5
+2021-08-30 11:40:00+00:00,Making Sense of 33 Million Rows of Instacart Data: Exploratory Data Analysis…,Instacart is one of the hottest Silicon Valley startups of the last decade and is now valued at whopping $39…,Vijay Vankayalapati,Geek Culture ,6
+2021-08-30 11:40:00+00:00,Data Science Learning Path with Python,"I often receive messages from new members of Jakarta AI Research Discord Server, ""where do I start to learn…",Andreas Chandra,Data Folks Indonesia ,3
+2021-08-30 11:40:00+00:00,Jupyter Notebook can do that?,Soup up your cells with a couple of key extensions,Jesse Markowitz,CodeX ,5
+2021-08-30 11:40:00+00:00,Reshaping Mitochondria to Reverse Obesity,Changing the shape of mitochondria can reverse some of the molecular processes underlying obesity (in mice),Gunnar De Winter,In Fitness And In Health ,4
+2021-08-30 11:40:00+00:00,Data Types in Data Science,A quick guide on the differences between quantitative and qualitative data,Kirill Bobrov,Analytics Vidhya ,3
+2021-08-30 11:40:00+00:00,Reducing product stock-outs in hypermarkets with Time Series modeling,A pragmatic guide into creating a data science product with limited data and high business constraints,Kasra Mansouri,Artefact Engineering and Data Science ,8
+2021-08-30 11:40:00+00:00,Summarize Articles Using NLP.,Summarize text using this simple technique.,Poonam Yadav,MLearning.ai ,3
+2021-08-30 11:40:00+00:00,Tim Ferriss' System for Mastering Any Skill Is Pure Genius,Here's his method for being the world's most successful human guinea pig,Hannah To,Wholistique ,5
+2021-08-29 11:40:00+00:00,All the Datasets You Need to Practice Data Science Skills and Make a Great…,A Great Collection of Different kinds of Datasets,Rashida Nasrin Sucky,Towards Data Science ,7
+2021-08-29 11:40:00+00:00,4 Python Packages that are Modernizing Data Science,1.Mito,Jake from Mito,trymito ,3
+2021-08-29 11:40:00+00:00,How I Completed the Data Scientist Nanodegree in 30 Days,I didn't need the recommended 4 months of access even while working full-time.,Arunn Thevapalan,Geek Culture ,6
+2021-08-29 11:40:00+00:00,Web Crawling with 25 Lines of Python Code,How to write a powerful spider within minutes,Otávio Simões Silveira,Level Up Coding ,6
+2021-08-29 11:40:00+00:00,"""Write For Us"" Opportunities You Are Missing",How to properly use Google in your search to submit writing,Shelby Sullivan,The Writing Cooperative ,4
+2021-08-29 11:40:00+00:00,Interactive Dashboards with Python and Dash - Part 3,"Create web applications in Python without HTML, CSS, and JS",Abdishakur,Spatial Data Science ,4
+2021-08-29 11:40:00+00:00,How to Get Twitter Data With Tweepy,A Fast Track Guide to Downloading Twitter Data using Python,Roman Paolucci,Geek Culture ,3
+2021-08-29 11:40:00+00:00,What exactly is web scraping?,The Web contains tons and tons of data. The…,Himani Gulati,Jovian - Data Science and Machine Learning ,8
+2021-08-29 11:40:00+00:00,Discovering Hidden Themes of Documents in Python using Latent Semantic Analysis,"Discovering topics are very useful for various purposes such as for clustering documents, organizing online…",Avinash Navlani,Artificial Intelligence in Plain English ,9
+2021-08-29 11:40:00+00:00,Python Will Lose the Hype in the Next 5 Years,"""No-Code"" machine learning is the future",Pranjal Saxena,Level Up Coding ,4
+2021-08-29 11:40:00+00:00,10 Challengers That Could Have Become The Face of MTV's The Challenge,"MTV's The Challenge is on its 37th season titled; Spies, Lies, and Allies. Yes, I hate the title too. They…",Dylan Deckard,TV Talk ,8
+2021-08-28 11:40:00+00:00,7 Python Libraries to Make Automation Easy,Often it's hard to find inspiration to automate using Python. I think knowing packages might give you an idea…,Natig Babayev,Quick Code ,3
+2021-08-28 11:40:00+00:00,Nine tools I wish I mastered before my PhD in Machine Learning,Whether you are building a start up or making scientific breakthroughs these tools will bring your ML…,Aliaksei Mikhailiuk,Towards Data Science ,7
+2021-08-28 11:40:00+00:00,5 Python Projects That You Can Complete Over The Weekend,List of projects for your portfolio,Pranjal Saxena,Level Up Coding ,4
+2021-08-28 11:40:00+00:00,Applied Text Analysis with Python: Chapter 1 - Language and Computation,"Or, the beginning of the journey…",Anna Winkler,CodeX ,5
+2021-08-28 11:40:00+00:00,Using The Cosine Similarity and DBSCAN to Get Clusters from The Housing Data…,How many clusters are in my data set? And what are the characteristics of each cluster?,Julia (Hwa-Wei) Wu,"Web Mining [IS688, Spring 2021] ",13
+2021-08-28 11:40:00+00:00,Pandas Query: the easiest way to filter data,Learn 7 code snippets that will enhance your productivity.,Gustavo Santos,gustavorsantos ,4
+2021-08-28 11:40:00+00:00,Writing with AI. Introduction to MERZ dAIgest.,"Why AI art is ""our art"" and not ""my art"".",Vlad Alex (Merzmensch),Merzazine ,4
+2021-08-28 11:40:00+00:00,Comparing 4 methods for pdf text extraction in python,"Accuracy and processing time for PyPdf2, PdfMiner.six, Grobid, and PyMuPdf ",Jeanna Schoonmaker,Social Impact Analytics ,6
+2021-08-28 11:40:00+00:00,Using AI to classify a book,Building an NLP project from A to Z,Tanguy Pledel,MLearning.ai ,19
+2021-08-28 11:40:00+00:00,Is Scottie Barnes A Franchise Player?,The Raptors Drafted Barnes 4th Overall But Does He Have Super Star Potential?,Super Raptor,SportsRaid ,7
+2021-08-27 11:40:00+00:00,Pycaret Machine Learning Development and Deployment on Tkinter,Making a simple portfolio modelling and deployment machine learning,Ronny Fahrudin,Geek Culture ,9
+2021-08-27 11:40:00+00:00,Time Series Forecasting,"Seasonal, Trending, Cyclical or Random?",Andrew Yap Jiun Herng,ViTrox-Publication ,5
+2021-08-27 11:40:00+00:00,The Moving Average-Stochastic Oscillator Strategy: An Algorithmic Approach,"Sometimes, a simple strategy is the best strategy.",Atreyu Jasper Laxa Cortez,InsiderFinance Wire ,7
+2021-08-27 11:40:00+00:00,Top 9 Data Science Projects for a Beginner in 2020,The ultimate project list for new skills and strengthen your portfolio,Rashi Desai,Towards Data Science ,8
+2021-08-27 11:40:00+00:00,MacBook M1: installing TensorFlow and Jupyter Notebook,These are the steps I took to install TensorFlow and Jupyter Notebook in my MacBook M1 (Apple Silicon ARM64),Gonzalo Ruiz de Villa,gft-engineering ,4
+2021-08-27 11:40:00+00:00,Data Science Weekly Issue 7,"Welcome to the seventh issue of Data Science Weekly, a weekly newsletter sharing the latest data science…",This Week In,Data Science Weekly ,3
+2021-08-27 11:40:00+00:00,Analyzing freeCodeCamp.org Video Transcripts and Metadata,"Discovering textual relationships, characteristics and patterns in programming tutorials",dominik gulácsy,Nerd For Tech ,16
+2021-08-27 11:40:00+00:00,Here's What the Fittest People in the World Eat for Breakfast,With key takeaways you can apply.,Alyssa Atkinson,In Fitness And In Health ,5
 2021-08-26 11:40:00+00:00,How to Create Large Music Datasets Using Spotipy,The Fastest and Cleanest Way to Get Music Related Data for Machine Learning,Max Hilsdorf,Towards Data Science ,9
 2021-08-26 11:40:00+00:00,The machine learning behind delivering relevant ads,"Felix Fang | Software Engineer, Advertiser Solutions Group",Pinterest Engineering,Pinterest Engineering Blog ,9
 2021-08-26 11:40:00+00:00,Building a semantic search engine with dual space word embeddings,"Imagine you have a large set of news articles, and want to provide a way to allow your users to search…",Chris Zhu,Mage ,7
