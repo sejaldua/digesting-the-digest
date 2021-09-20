@@ -1,4 +1,215 @@
 Date,Title,Subtitle,Author,Publication,Minutes
+2021-09-19 11:40:00+00:00,Summarizing Papers With Python and GPT-3,Using python and openai's GPT-3 to summarize AI papers,Lucas Soares,Geek Culture ,6
+2021-09-19 11:40:00+00:00,Text analysis in the social sciences,A new spectrum of possibilities,Laura Castro-Schilo,Towards Data Science ,8
+2021-09-19 11:40:00+00:00,Visual time series forecasting with Streamlit Prophet,"Deploy an app to train, evaluate and optimize time series forecasting models visually",Maxime Lutel,Artefact Engineering and Data Science ,10
+2021-09-19 11:40:00+00:00,5 Powerful Functions in Python,Must know functions in Python explained with code,Swathi Arun,The Pythoneers ,3
+2021-09-19 11:40:00+00:00,Start Using Annotations In Your Python Code,Understanding what function and variable annotations are in Python,Chetan Ambi,Towards AI ,6
+2021-09-19 11:40:00+00:00,Dawn of a New Era in Machine Learning,A food for your thoughts - Machine learning on dynamic and high frequency datasets ,Poornachandra Sarang,BlobCity ,4
+2021-09-19 11:40:00+00:00,DATA PREPROCESSING,This article aims to make you understand the basic data preprocessing of various data types before any…,Soumya Ranjan Mishra,AlmaBetter ,20
+2021-09-19 11:40:00+00:00,Top 10 Natural Language Processing (NLP/NLG) Machine Learning Model,Natural language processing (NLP) and natural language generation (NLG) are key revolutionary areas of…,Futuris Perpetuum,CodeX ,3
+2021-09-19 11:40:00+00:00,Ingenious: Scott Aaronson,From computational complexity to quantum mechanics,Nautilus,Nautilus Magazine ,24
+2021-09-18 11:40:00+00:00,How to: Machine Learning Pipeline (Beginner),"When I first started on my machine learning journey, all I knew was how to code in Jupyter notebooks/google…",Tan Kah Ming,Towards Data Science ,6
+2021-09-18 11:40:00+00:00,Topic modeling using Latent Dirichlet Allocation(LDA) and Gibbs Sampling…,How Topic Modelling works and how to implement it using LDA and Gibbs Sampling,Ankur Tomar,Analytics Vidhya ,9
+2021-09-18 11:40:00+00:00,Harmonic Resolution,Translating Color Harmony into Data Color Schemes,Theresa-Marie Rhyne,Nightingale ,12
+2021-09-18 11:40:00+00:00,Topic Modeling On Twitter Using Sentence BERT,"Follow along as we extract topics from Twitter data using a revisited version of BERTopic, a library based on…",Ariel Ibaba,atoti ,6
+2021-09-18 11:40:00+00:00,Summarize Articles Using NLP.,Summarize text using this simple technique.,Poonam Yadav,MLearning.ai ,3
+2021-09-18 11:40:00+00:00,Web Scraping Finance Data with Scrapy + Yahoo Finance,Part I: Scraping Stock data to file,Immanuel Ryan Augustine,Python in Plain English ,7
+2021-09-18 11:40:00+00:00,Knowing Your Neighbours: Machine Learning on Graphs,We live in a deeply connected world. Graph Machine Learning provides Data Scientists with the tools to…,Pantelis Elinas,stellargraph ,9
+2021-09-18 11:40:00+00:00,Why Monitors are Counterproductive for Coders,"I quit using external monitor year ago and have no remorse whatsoever. On contrary, I feel that I am more…",dmytrozzz,CodeX ,4
+2021-09-18 11:40:00+00:00,Medium just got a lot deeper: expanding topics to be more personalized,Tags are replacing topic pages - so you can write for audiences who care deeply about your subject matter…,Tatiana Colligan,3 min read ,3
+2021-09-18 11:40:00+00:00,FT Article Clustering,Using unsupervised machine learning to label FT articles,Adam Gajtkowski,FT Product & Technology ,6
+2021-09-18 11:40:00+00:00,A Complete Data Analytics Project with Python,"Data collection, analysis, visualization, and presentation",Natassha Selvaraj,DataDrivenInvestor ,7
+2021-09-18 11:40:00+00:00,How to Build a Probability Microscope,The surprising mathematics of the extremely rare,Nautilus,Nautilus Magazine ,11
+2021-09-17 11:40:00+00:00,A Python library to remove collinearity,A simple Python library for dealing with collinear variables,Gianluca Malato,Towards Data Science ,5
+2021-09-17 11:40:00+00:00,NLP with Topic Modelling,Understanding why we use Topic Modelling with easy implementation.,Neel Ghoshal,CodeChef-VIT ,3
+2021-09-17 11:40:00+00:00,7 Steps for Adding Artificial Character in Zoom Meetings Using Python,The Avatarify library makes it a lot easier,Pranjal Saxena,Better Programming ,4
+2021-09-17 11:40:00+00:00,Confusion Matrix in Machine Learning,Classification metric in supervised learning,Amit Chauhan,Analytics Vidhya ,4
+2021-09-17 11:40:00+00:00,Deploying a Flask App with NPM modules on Heroku,Flask + NPM + Heroku = ?,Richard So,codeburst ,4
+2021-09-17 11:40:00+00:00,3 ways to clean your HTML text for NLP text pre-processing,How to remove the HTML tags from your corpus for building your NLP data-set,Lars Nielsen,MLearning.ai ,2
+2021-09-17 11:40:00+00:00,Text Clustering with K-Means in an automated Approach,When it comes to unsupervised learning techniques on text data like clustering we all are aware of its…,Gopikrishna Yadam,Text Clustering with K-Means in an automated approach. ,8
+2021-09-17 11:40:00+00:00,Data Science Job Salary Predictor with Machine Learning from Glassdoor,This project includes steps of necessary exploration data analysis and the workflow of building a categorical…,Cheng,Geek Culture ,5
+2021-09-17 11:40:00+00:00,How To Tokenize Sentences For Natural Language Processing (NLP) Using The NLTK…,By Mr. Data Science,Mr. Data Science,The Data Science Publication ,7
+2021-09-17 11:40:00+00:00,Decision Making at Netflix,Part 1 in a multipart series about decision making and experimentation at Netflix,Netflix Technology Blog,Netflix TechBlog ,3
+2021-09-17 11:40:00+00:00,I Started a Faceless YouTube Channel -One Year Later,About a year ago I started a faceless YouTube channel. I was no stranger to YouTube but despite my best…,Jenn Leach,Better Marketing ,4
+2021-09-17 11:40:00+00:00,Lessons From a Body Sculptor on What Really Changes The Shape of Our Bodies,I went from 180 pounds to 145 using her advice,Kelly Eden,Better Humans ,4
+2021-09-16 11:40:00+00:00,Why You Should Watch Great Movies Twice,"If you think reruns are a waste of time, you might want to think - or better yet, watch - again",Niklas Göke,Forge ,5
+2021-09-16 11:40:00+00:00,600 NLP Datasets and Glory,State of Big Bad NLP Database,Quantum Stat,Towards AI ,4
+2021-09-16 11:40:00+00:00,Multi-Sentence Compression: Finding Shortest Paths in Word Graphs,NLP Research Paper Summary,Prakhar Mishra,CodeX ,5
+2021-09-16 11:40:00+00:00,How Many Hours a Day Should You Spend on Your Feet?,New research on standing points to a minimum daily goal,Markham Heid,Elemental ,4
+2021-09-16 11:40:00+00:00,Pursuit of Happiness | Write Here Wednesday,Your stories about finding happiness and finding yourselves,Jolie A. Doggett,Creators Hub ,4
+2021-09-16 11:40:00+00:00,Why Is There a Tiny Pocket Above the Front  Pocket on Jeans?,"The tiny pocket right above the front pocket on a pair of jeans doesn't hold much, but it had a clear reason…",Daniel Ganninger,Knowledge Stew ,3
+2021-09-16 11:40:00+00:00,Comparing 4 methods for pdf text extraction in python,"Accuracy and processing time for PyPdf2, PdfMiner.six, Grobid, and PyMuPdf",Jeanna Schoonmaker,Social Impact Analytics ,6
+2021-09-16 11:40:00+00:00,"The forest of amazon reviews, part 1 (an NLP story)",In this post we will enter the world of NLP ( natural language processing ) that studies the interactions…,Jorge Ercoli,MLearning.ai ,6
+2021-09-16 11:40:00+00:00,Turn a Harry Potter Book into a Knowledge Graph,Learn how to combine Selenium and SpaCy to create a Neo4j knowledge graph of the Harry Potter universe,Tomaz Bratanic,Neo4j Developer Blog ,9
+2021-09-16 11:40:00+00:00,How to Build the Speedy Home Wi-Fi Network of Your Dreams,You might even have some fun while you're at it,Owen Williams,OneZero ,8
+2021-09-15 11:40:00+00:00,How to Extract Structured Information from a Text through Python SpaCy,A ready-to-run tutorial on how to build a structured dataset from a text.,Angelica Lo Duca,Towards Data Science ,6
+2021-09-15 11:40:00+00:00,The Future of Python Packages is Here,Mito,Jake from Mito,trymito ,3
+2021-09-15 11:40:00+00:00,Create an Advanced Gantt Chart in Python,"How to generate a Gantt Chart which contains additional details like Departments, Percentage Completion etc.",Abhijith Chandradas,Geek Culture ,6
+2021-09-15 11:40:00+00:00,Data Science Books you should start reading in 2021,Best Data Science books for any level.,Przemek Chojecki,Data Science Rush ,6
+2021-09-15 11:40:00+00:00,Machine Learning - simplified definition,Machine Learning is based on the idea that analytic systems can learn to identify patterns and make decisions…,Kirill Bobrov,Analytics Vidhya ,4
+2021-09-15 11:40:00+00:00,Feature Engineering for Time Series Problem,"Time-series data is defined as a collection of data gathered at regular intervals of time, with each…",Rajat Pal,AlmaBetter ,3
+2021-09-15 11:40:00+00:00,Data Preprocessing and EDA for Natural Language Processing.,It is important to know enough insights about your data before implementing any machine learning model or…,Bhupender saini,Geek Culture ,7
+2021-09-15 11:40:00+00:00,Create a Demand Sales Forecast Model and Minimize the Error,A step-by-step tutorial in Python.,Federico Riveroll,Level Up Coding ,9
+2021-09-15 11:40:00+00:00,3 Another Jupyter Notebook Alternative For Data Scientist,Another set of Jupyter Alternative for your arsenals,Cornellius Yudha Wijaya,DataDrivenInvestor ,7
+2021-09-14 11:40:00+00:00,"Forget HTML and Flask, Start Using Streamlit",WebApp framework for data science and machine learning,Amit Chauhan,The Pythoneers ,5
+2021-09-14 11:40:00+00:00,NLP: Text Data Visualization,"""Data will talk to you if you are willing to listen.""-Jim Bergeson",Namrata Kapoor,Towards Data Science ,4
+2021-09-14 11:40:00+00:00,Web Scraping Cheat Sheet,"- ""Load More"" button handling tutorial",Listly,Listly | Tips and Tricks ,3
+2021-09-14 11:40:00+00:00,The NLP Cypher | 06.13.21,Vintage,Quantum Stat,Geek Culture ,7
+2021-09-14 11:40:00+00:00,Data Cleaning in Python with NumPy and Pandas,"The first utilities that an aspiring, python-wielding data scientist must learn include numpy and pandas. All…",Mike Flanagan,CodeX ,5
+2021-09-14 11:40:00+00:00,HOW SHOULD YOU START TO LEARN MACHINE LEARNING USING JAVA?,"The studies found that enterprise developers tend to use Java in all projects, which included machine…",Magnimind,MagniData ,3
+2021-09-14 11:40:00+00:00,Step by step guide to twitter sentiment analysis,using python and twint library,Meera Maurya,Nerd For Tech ,4
+2021-09-14 11:40:00+00:00,"The setup I use to build dashboard prototypes that look custom coded, use real…","So you're on a team that's trying to be more ""data driven"" and you've been tasked with building an…",Josh Cottrell-Schloemer,Bootcamp ,3
+2021-09-14 11:40:00+00:00,Exploratory Data Analysis With One-Line of Code,a complete and fully responsive data visualization with Lux,Juan Nathaniel,Geek Culture ,4
+2021-09-14 11:40:00+00:00,Understand Descriptive Statistics,Descriptive statistics is crucial before the process of inferential,Khelifi Ahmed Aziz,DataSeries ,9
+2021-09-14 11:40:00+00:00,Building a Big Data Geographical Dashboard with Open-Source Tools,"Mapping the U.S. power grid with Dash, Dask, and Datashader",JP Hwang,Plotly ,16
+2021-09-14 11:40:00+00:00,Geospatial Visualization with Geoplot in Python,easily and beautifully plot geospatial data…,Juan Nathaniel,Geek Culture ,4
+2021-09-14 11:40:00+00:00,"The 8 Greatest Mathematical Signs, Ranked",Or at least the ones we remember from pre-calculus,LEVEL Editors,LEVEL ,2
+2021-09-13 11:40:00+00:00,Revenge By a Programmer For Not Getting Salaries For 3 months,Don't mess with programmers,The woman,JavaScript in Plain English ,4
+2021-09-13 11:40:00+00:00,Exploratory Data Analysis of Used Cars in the United States,"using Python, Pandas, Seaborn and Plotly",Harshit Gupta,Jovian - Data Science and Machine Learning ,14
+2021-09-13 11:40:00+00:00,Day 23 of the 66 Days of Data,Documenting my Data Science Learning Journey,Chanin Nantasenamat,Data Professor ,3
+2021-09-13 11:40:00+00:00,Applied Text Analysis with Python: Chapter 1 - Language and Computation,"Or, the beginning of the journey…",Anna Winkler,CodeX ,5
+2021-09-13 11:40:00+00:00,The best tools for Dashboarding in Python,A comparison - choosing the right option for the right project.,Abdishakur,Spatial Data Science ,4
+2021-09-13 11:40:00+00:00,Discovering Hidden Themes of Documents in Python using Latent Semantic Analysis,"Discovering topics are very useful for various purposes such as for clustering documents, organizing online…",Avinash Navlani,Artificial Intelligence in Plain English ,9
+2021-09-12 11:40:00+00:00,Summarizing Papers With Python and GPT-3,Using python and openai's GPT-3 to summarize AI papers,Lucas Soares,Geek Culture ,6
+2021-09-12 11:40:00+00:00,Deep learning for fraud detection in retail transactions,An overview of challenges and deep learning-based solutions,Ahmad Khodayari,Walmart Global Tech Blog ,14
+2021-09-12 11:40:00+00:00,NATURAL LANGUAGE PROCESSING,Learn how to use TextBlob to fix misspellings and improve the model for your…,Ismael Araujo,Geek Culture ,5
+2021-09-12 11:40:00+00:00,What makes a student prefer a university?… A brief summary.,Data analysis of American Universities to find out which are the most preferred features by students when it…,Daniela Cruz,Jovian - Data Science and Machine Learning ,8
+2021-09-12 11:40:00+00:00,Python Web Scraping Takes 2 Minutes to Learn,"Web scraping is an important part of data aggregation, and is one of the many reason people flock to Python…",Jake from Mito,trymito ,2
+2021-09-12 11:40:00+00:00,The most overlooked opportunity for Excel users is visual design,"When you think of Excel, you probably think of spreadsheets with rows and rows of data. Maybe you imagine a…",Josh Cottrell-Schloemer,Bootcamp ,3
+2021-09-12 11:40:00+00:00,"Topic Modeling with LSA, PSLA, LDA & lda2Vec",From matrix factorization to deep learning,Joyce Xu,NanoNets ,12
+2021-09-12 11:40:00+00:00,Scattertext Visualizations,"An elegant, interactive tool to elevate your text analysis",Kristen Davis,MLearning.ai ,4
+2021-09-12 11:40:00+00:00,How to Analyze Amazon Reviews: Climbing Shoe Sentiment Analysis in Python,Using the power of Natural Language Processing to identify top shoe models based on user reviews,keanshern kok,Geek Culture ,13
+2021-09-11 11:40:00+00:00,3 Variants of Python Dictionaries That Make Your Coding Easier,Choose the most appropriate one,Yang Zhou,TechToFreedom ,4
+2021-09-11 11:40:00+00:00,Walmart Sales Time Series Forecasting using Deep Learning,This Blog covers different machine learning and deep learning models for the forecasting of Time Series Sales…,Abhinav Dubey,Nerd For Tech ,5
+2021-09-11 11:40:00+00:00,Identification of Product Clusters to Formulate Differential Marketing…,"If your enterprise is selling multiple products with diversified sales statistics, probably it is not the…",Koyel Chakraborty,Analytics in Market Research ,5
+2021-09-11 11:40:00+00:00,How To Easily Scrape Multiple Pages of a Website Using Python,A simple guide to extracting data from websites with Python,Frank Andrade,Better Programming ,8
+2021-09-11 11:40:00+00:00,What Are @classmethod and @staticmethod in Python?,Become a method master by learning the three method types of a class,Artturi Jalli,Better Programming ,4
+2021-09-11 11:40:00+00:00,How to add text summarizer to Google Docs using Text Summarization API,Add a tl;dr button to Google Docs,Rafał Rybnik,Level Up Coding ,4
+2021-09-11 11:40:00+00:00,Medium Writers Starter Pack,⚡️Your one-stop-shop for writing on Medium ⚡️,Medium Creators,Creators Hub ,3
+2021-09-10 11:40:00+00:00,No One Wants 40 Hour Work Weeks Anymore.,"The hidden side of the work from anywhere epidemic that millennials are falling for hook, line, and sinker.",Kele Mogotsi,The Startup ,7
+2021-09-10 11:40:00+00:00,How I would Learn Python for Data Science if I Had to Start Over,Plus 3 tips to help you avoid making the same mistakes,Nicholas,Towards Data Science ,7
+2021-09-10 11:40:00+00:00,Tutorial on GUI with Python using DearPyGUI(0.8),Hello everyone! Today I am going to talk about a library in python that you can use to make cool looking GUI…,Tanmay Choudhary,Geek Culture ,5
+2021-09-10 11:40:00+00:00,PySpark Cheat Sheet: Big Data Analytics,Here is a cheat sheet for the essential PySpark commands and functions. Start your big data analysis in…,Tatev Karen,Analytics Vidhya ,8
+2021-09-10 11:40:00+00:00,Reducing product stock-outs in hypermarkets with Time Series modeling,A pragmatic guide into creating a data science product with limited data and high business constraints,Kasra Mansouri,Artefact Engineering and Data Science ,8
+2021-09-10 11:40:00+00:00,Scrape Instagram using python,"This post talks about how we can connect to Instagram using python and extract list of followers, people whom…",Apoorva Dave,Nerd For Tech ,2
+2021-09-10 11:40:00+00:00,4 Free and Paid Web Scraping Courses Every Data Scientist Should Take,Acquire this must-have skill every data scientist should have.,Frank Andrade,Geek Culture ,4
+2021-09-10 11:40:00+00:00,By Mr. Data Science,A Brief…,Mr. Data Science,The Data Science Publication ,13
+2021-09-10 11:40:00+00:00,Five Unexpected Ways To Market Your Articles,Some quick and creative ways to promote your pieces on Medium and beyond,Teressa P.,Creators Hub ,3
+2021-09-09 11:40:00+00:00,A Complete Data Analytics Project with Python,"Data collection, analysis, visualization, and presentation",Natassha Selvaraj,DataDrivenInvestor ,7
+2021-09-09 11:40:00+00:00,Topic modeling using Latent Dirichlet Allocation(LDA) and Gibbs Sampling…,How Topic Modelling works and how to implement it using LDA and Gibbs Sampling,Ankur Tomar,Analytics Vidhya ,9
+2021-09-09 11:40:00+00:00,Creating Interactive Topic Model Visualizations,Topic Modelling is a part of Machine Learning where the…,Himanshu Sharma,Towards Data Science ,3
+2021-09-09 11:40:00+00:00,Topic Modeling - LDA Mallet Implementation in Python - Part 2,"In Part 1, we created our dictionary and corpus and now we are ready to build our model. Let's start with…",Senol Kurt,The Startup ,5
+2021-09-09 11:40:00+00:00,A Primer on Data Drift,"When Machine Learning models are not relevant anymore, it might be due to underlying data drift. Here, we…",Du Phan,data from the trenches ,10
+2021-09-09 11:40:00+00:00,All Topics of Statistics for Data Science,Here is a list of all the topics of Statistics you should learn for Data Science,Aman Kharwal,Becoming Human: Artificial Intelligence Magazine ,3
+2021-09-09 11:40:00+00:00,How to Become a Successful Data Storyteller,A beginner's guide to presenting with data,Vicky Yu,DataDrivenInvestor ,3
+2021-09-09 11:40:00+00:00,How to Build a Machine Learning Model Performance Calculator App,Do you have prediction results from machine learning models lying around? Too lazy to spin up a code to…,Chanin Nantasenamat,Data Professor ,2
+2021-09-09 11:40:00+00:00,4 Python Packages that are Modernizing Data Science,1.Mito,Jake from Mito,CodeX ,3
+2021-09-09 11:40:00+00:00,Decision Making at Netflix,Part 1 in a multipart series about decision making and experimentation at Netflix,Netflix Technology Blog,Netflix TechBlog ,3
+2021-09-09 11:40:00+00:00,How to Import Data From Multiple Text Files in Python?,"An easier way to import, rearrange, merge, and indexing data from multiple text files along with exporting…",Harish Maddukuri,Python Pandemonium ,5
+2021-09-09 11:40:00+00:00,It's the Future of AI in Restaurants,"Restaurants are starting to open up at limited capacity as vaccines roll out, and cities start easing…",Mariojose Palma,Artificial Intelligence in Plain English ,3
+2021-09-09 11:40:00+00:00,Microsoft is Finally Ditching Electron,Microsoft might have hit a wall with Teams on Electron,Faisal Khan,Dev Genius ,3
+2021-09-09 11:40:00+00:00,Is Scottie Barnes A Franchise Player?,The Raptors Drafted Barnes 4th Overall But Does He Have Super Star Potential?,Super Raptor,SportsRaid ,7
+2021-09-08 11:40:00+00:00,Sentiment Analysis in 10 Minutes with Rule-Based VADER and NLTK,"Using the ""Valence Aware Dictionary and sEntiment Reasoner"" on the IMDB Reviews Dataset for Rule-based…",Orhan G. Yalçın,Towards Data Science ,9
+2021-09-08 11:40:00+00:00,A Primer On Machine Learning and Data Analysis,"Hi, I'm Shaythuram a Singaporean ReactJS developer with a strong interest in Machine Learning, Data Analysis…",Shaythuram,Geek Culture ,11
+2021-09-08 11:40:00+00:00,A Friendly Guide to NLP: TF-IDF With Python Example,Compare implementation with Scikit-Learn's TfidfVectorizer,Eugenia Anello,Better Programming ,6
+2021-09-08 11:40:00+00:00,A Complete Guide To Time Series Analysis - Story,"Disclaimer : If you haven't read the prologue, its highly recommended to read it first and then come back…",Anant Kumar,Analytics Vidhya ,3
+2021-09-08 11:40:00+00:00,Ultimate GitHub Repo to Make Your Weekend Amazing,"Neural network using Go, Build your search engine in Python, and much more",Pranjal Saxena,Level Up Coding ,4
+2021-09-08 11:40:00+00:00,10 Use-Cases in everyday business operations using NLP,And how spaCy v3.0 can help you get started with these use-cases,Lars Nielsen,MLearning.ai ,7
+2021-09-08 11:40:00+00:00,If You are Web Scraping Don't Do These Things,Create better web scrapers by avoiding these common mistakes.,David Tippett,Level Up Coding ,5
+2021-09-08 11:40:00+00:00,An Open Letter To The Teenage Boy Who Just Air-Dropped Me An Unsolicited Photo…,Cue the eggplant emoji!,Ivana Klara,The Haven ,2
+2021-09-07 11:40:00+00:00,The Best Data Science Framework You've Never Heard Of,Build beautiful data-driven apps faster than ever,Aden Haussmann,Towards Data Science ,6
+2021-09-07 11:40:00+00:00,Build Spell Checking Models For Any Language In Python,"The theory behind spell checker using the noisy channel, and the implementation of spell checker in python…",Zahra Ahmad,MLearning.ai ,5
+2021-09-07 11:40:00+00:00,A Step-by-Step Guide to Using TextBlob for NLP With Python,A handy library to do all your text processing tasks,Amit Chauhan,Better Programming ,4
+2021-09-07 11:40:00+00:00,How To use Google Colab with VS Code,Take advantage of a full-fledged code editor the same way as in your local machine.,Davis David,Geek Culture ,4
+2021-09-07 11:40:00+00:00,Sentiment Analysis on Reddit Tech News with Python,A quick guide to sentiment analysis with NLTK on the subreddit r/technews.,Benedict Neo,bitgrit Data Science Publication ,10
+2021-09-07 11:40:00+00:00,From DataFrame to N-Grams,A quick-start guide to creating and visualizing n-gram ranking using nltk for natural language processing.,Ednalyn C. De Dios,Towards Data Science ,5
+2021-09-07 11:40:00+00:00,NVIDIA Releases An AI With Expressive Speech Capabilities,"What is the first thing that comes to your mind when you think about a ""robotic sound""? Well, that is about…",Doga Ozgon,Analytics Vidhya ,4
+2021-09-07 11:40:00+00:00,Machine Learning Fundamentals- Outliers,"What are outliers? , How to identify outliers? , How overcome outliers? , How to overcome outliers in real…",Hashan Eranga,Nerd For Tech ,3
+2021-09-07 11:40:00+00:00,Get free high-performance GPU for your work,I have heard from many colleagues that they face problems in…,Pranjal Saxena,Better AI ,4
+2021-09-07 11:40:00+00:00,An introduction to time series forecasting,You can do a lot with a linear model,David Starkey,VorTECHsa ,10
+2021-09-07 11:40:00+00:00,Hands on NLP-Natural Language Processing,"In detail with Bag of words, TF_IDF, RNN's, GRU's & LSTM's.",Akshith Kumar,MLearning.ai ,7
+2021-09-07 11:40:00+00:00,3 Another Jupyter Notebook Alternative For Data Scientist,Another set of Jupyter Alternative for your arsenals,Cornellius Yudha Wijaya,DataDrivenInvestor ,7
+2021-09-07 11:40:00+00:00,A Dangerous Problem,A child can understand it but nobody knows how to solve it,Kasper Müller,Cantor's Paradise ,6
+2021-09-06 11:40:00+00:00,A Step-by-Step Tutorial for Conducting Sentiment Analysis,part 2: transforming text data with the TFIDF Vectorizer,Zijing Zhu,Towards Data Science ,6
+2021-09-06 11:40:00+00:00,Word Embedding and Vector Space Models,"Vector space models capture semantic meaning and relationships between words. In this post, I'm going to talk…",Jiaqi (Karen) Fang,Analytics Vidhya ,10
+2021-09-06 11:40:00+00:00,Quick and easy spatial data visualization using Kepler.gl,"Simple steps, yet cool results - Using Kepler.gl in Jupyter Notebook for visualizing TransJakarta bus…",Olivia Tanuwidjaja,Geek Culture ,7
+2021-09-06 11:40:00+00:00,Using The Cosine Similarity and DBSCAN to Get Clusters from The Housing Data…,How many clusters are in my data set? And what are the characteristics of each cluster?,Julia (Hwa-Wei) Wu,"Web Mining [IS688, Spring 2021] ",13
+2021-09-06 11:40:00+00:00,Scraping Tutorial on Airbnb's Website (with Scrapy) | Scraping with 🐍,Making your first steps in automating data collection from a raw web page,Thibaud Lamothe,Geek Culture ,13
+2021-09-06 11:40:00+00:00,Web Crawling with 25 Lines of Python Code,How to write a powerful spider within minutes,Otávio Simões Silveira,Level Up Coding ,6
+2021-09-06 11:40:00+00:00,BERT for Sentiment Analysis - predicting news for stock market trends,This project is one of 4 mandatory projects of Data Science Udacity Nanodegree.,Nontawat Pattanajak,InsiderFinance Wire ,3
+2021-09-06 11:40:00+00:00,4 Python Packages that are Modernizing Data Science,1.Mito,Jake from Mito,trymito ,3
+2021-09-06 11:40:00+00:00,Programming Books that are Actually Fun and Easy to Read,"Smart is the new sexy, it's a fact. Gone are those times when people were laughing at nerds who believed that…",Valerie,Dare To Be Better ,4
+2021-09-06 11:40:00+00:00,FT Article Clustering,Using unsupervised machine learning to label FT articles,Adam Gajtkowski,FT Product & Technology ,6
+2021-09-06 11:40:00+00:00,Twitter sentiment analysis using Logistic Regression,Sentiment Analysis:,Kolamanvitha,Nerd For Tech ,6
+2021-09-05 11:40:00+00:00,Preprocessing Textual Data,Using Cleantext for cleaning text dataset,Himanshu Sharma,Towards Data Science ,3
+2021-09-05 11:40:00+00:00,Introduction:,While the NLP…,Walid Amamou,MLearning.ai ,8
+2021-09-05 11:40:00+00:00,Create Text Summary Using Python Without NLP Libraries,The simplest way to summarize your text using Python,Sajid Hasan Sifat,Better Programming ,8
+2021-09-05 11:40:00+00:00,Managing a data science project,Setting up for success at each stage of delivery,Lisa Cohen,Data Science at Microsoft ,12
+2021-09-05 11:40:00+00:00,Random Forest in Python,A Practical End-to-End Machine Learning Example,Will Koehrsen,Towards Data Science ,21
+2021-09-05 11:40:00+00:00,The NLP Cypher | 06.13.21,Vintage,Quantum Stat,Geek Culture ,7
+2021-09-05 11:40:00+00:00,Summary statistics can deceive.,"To make the case, let me introduce you to Anscombe's quartet. It comprises four datasets which have similar…",akansha khandelwal,Geek Culture ,4
+2021-09-05 11:40:00+00:00,Using Detailed Visuals of AI to Better Regulate the Technology: Zetane Presents,See our talk at a Montreal symposium where leaders discuss the big picture of technology development and its…,"Jason Behrmann, PhD",Zetane Blog ,3
+2021-09-05 11:40:00+00:00,A Guide to Storing Scraped Data with Python,Web scraping is an efficient tool to gather large amounts of data for data science projects and depending on…,Otávio Simões Silveira,Level Up Coding ,6
+2021-09-05 11:40:00+00:00,Comparing 4 methods for pdf text extraction in python,"Accuracy and processing time for PyPdf2, PdfMiner.six, Grobid, and PyMuPdf",Jeanna Schoonmaker,Social Impact Analytics ,6
+2021-09-05 11:40:00+00:00,The Meteoric Rise and Catastrophic Fall of Ivermectin as a Possible COVID-19…,"If you're reading this, I hope you're not self-dosing Ivermectin as a preventative measure against…",David Lee Hill,Microbial Instincts ,7
+2021-09-04 11:40:00+00:00,Topic Modeling with NLP on Amazon Reviews: An Application of Latent Dirichlet…,Topic modeling is another popular text analysis technique. The ultimate goal of topic modeling to find a…,Enes Gokce,Towards Data Science ,12
+2021-09-04 11:40:00+00:00,The Top 25 Python libraries for Data Science,A list of the Python libraries that you should try at least once in your life.,Angelica Lo Duca,Geek Culture ,6
+2021-09-04 11:40:00+00:00,Text Annotation Tools for NLP,The goal of this article is to give a quick overview of the tools available to you to perform Text Annotation…,Javier Ramos,ITNEXT ,6
+2021-09-04 11:40:00+00:00,How to Share Beautiful Tables on your Medium Articles,Learn how to share interactive tables with your Medium readers using Airtable,Giorgos Myrianthous,Geek Culture ,3
+2021-09-04 11:40:00+00:00,"Reinforcement Learning and Spaceships, Navigating Data Oceans, Trending Tools…",Reinforcement Learning: The Next Frontier,ODSC - Open Data Science,ODSCJournal ,3
+2021-09-04 11:40:00+00:00,6 Cool Python Libraries That I Came Across Recently,Awesome Python libraries for Machine Learning,Dhilip Subramanian,Towards Data Science ,7
+2021-09-04 11:40:00+00:00,Count python list item occurrences,"From a list of integers, count the occurrence of each element and add items and count as a sub-list.",Vivek Chaudhary,Towards AI ,2
+2021-09-04 11:40:00+00:00,How To Track Phone Number Location With Python,No hacking - in 8 lines of code,Sabit Ololade,Python in Plain English ,3
+2021-09-04 11:40:00+00:00,The best tools for Dashboarding in Python,A comparison - choosing the right option for the right project.,Abdishakur,Spatial Data Science ,4
+2021-09-04 11:40:00+00:00,Scattertext Visualizations,"An elegant, interactive tool to elevate your text analysis",Kristen Davis,MLearning.ai ,4
+2021-09-04 11:40:00+00:00,Signs That You Are a Bad Programmer,"If you have these signs, you should work on them from today",The woman,JavaScript in Plain English ,4
+2021-09-04 11:40:00+00:00,I Started a Faceless YouTube Channel -One Year Later,About a year ago I started a faceless YouTube channel. I was no stranger to YouTube but despite my best…,Jenn Leach,Better Marketing ,4
+2021-09-04 11:40:00+00:00,You are Not Lazy or Undisciplined. You Have Internal Resistance.,"Why you can't just do it, and what to do instead",Jane Elliott PhD,Counter Arts ,7
+2021-09-03 11:40:00+00:00,8 Things you don't know about Pandas groupby,Learn these neat tricks from groupby method and boost your code.,Gustavo Santos,gustavorsantos ,4
+2021-09-03 11:40:00+00:00,Best Free Resources to Learn Geospatial Data Science,"courses, books, Github open-source projects, technical articles, and more…",Nathaniel J,Data Folks Indonesia ,5
+2021-09-03 11:40:00+00:00,How I Used Python and Selenium To Get a Lifetime Supply of Garlic Pizza Sticks,A tale of a curious student with a hungry mind.,Sanjeet Chatterjee,Level Up Coding ,4
+2021-09-03 11:40:00+00:00,Flutter Is About To Win Over the Web,The cross-platform framework offers the most compelling web development experience,Lew C,Better Programming ,12
+2021-09-03 11:40:00+00:00,7 Best Github Repositories For Learning Data Science,Top GitHub Repositories That Teaches About Data,Abhay Parashar,The Pythoneers ,3
+2021-09-03 11:40:00+00:00,How to Quickly Preprocess and Visualize Text Data with TextHero,"How to quickly preprocess, represent and visualize the text data in Python using TextHero library",Chetan Ambi,Towards AI ,4
+2021-09-03 11:40:00+00:00,Automatic and Smart Exploratory Data Visualization with Lux & Python,Easy EDA with One line Of code,Abdishakur,Spatial Data Science ,4
+2021-09-03 11:40:00+00:00,"NLP: Building a Basic ""Automated Text Filler""- An Introduction",An Automated Text Filler is a very popular natural language processing app used by smartphone keyboards and…,Samuel Theophilus,Geek Culture ,3
+2021-09-03 11:40:00+00:00,3 Python Packages That Make Data Science Simple,1.Mito,Jake from Mito,trymito ,4
+2021-09-03 11:40:00+00:00,Puzzle: Make 1 litre of water using a 23 litre bucket and a 16 litre bucket,Can you solve this problem?,Sundip Tailor,Math Simplified ,4
+2021-09-03 11:40:00+00:00,"The Best Lessons From my $60,000 MBA -  Condensed to One Page",The lessons I learned while studying at night.,Sean Kernan,Mind Cafe ,5
+2021-09-02 11:40:00+00:00,How To Prevent Burnout by Structuring Your Life Like a Story,It's all about action and reaction.,Alexa V.S.,Mind Cafe ,7
+2021-09-02 11:40:00+00:00,It's Not Your Fault: Combatting Guilt for the Neurodivergent Individual,"Shame is one of the harshest beliefs we buy into about ourselves, but neurodivergency isn't a bad thing; it's…",Austin Harvey,Better Humans ,11
+2021-09-02 11:40:00+00:00,NLP Profiler: Profiling datasets with one or more text columns,Creating high-level insights from text dataset using NLP Profiler,Himanshu Sharma,Towards Data Science ,5
+2021-09-02 11:40:00+00:00,NATURAL LANGUAGE PROCESSING,Learn how to use TextBlob to fix misspellings and improve the model for your…,Ismael Araujo,Geek Culture ,5
+2021-09-02 11:40:00+00:00,From Storytelling to Scrollytelling: A Short Introduction and Beyond*,Likely you have already heard about (Visual) Storytelling. It is a design concept applied in Journalism…,Lorenzo Amabili,Nightingale ,6
+2021-09-02 11:40:00+00:00,Microsoft is Finally Ditching Electron,Microsoft might have hit a wall with Teams on Electron,Faisal Khan,Dev Genius ,3
+2021-09-02 11:40:00+00:00,Have You Remembered to Pause Today?,Taking a beat before responding in difficult scenarios has helped me close the gap between who I am and who…,Annaliese Griffin,Forge ,3
+2021-09-02 11:40:00+00:00,Decades of War Dissolved,Watching Afghanistan fall through the eyes of a Marine veteran,Nancy Sherman,GEN ,4
+2021-09-02 11:40:00+00:00,Improving your Apache Spark Application Performance,Simple Tips and Tricks to Improve the Performance of your Spark Applications,Robert Sanders,Clairvoyant Blog ,3
+2021-09-02 11:40:00+00:00,Two Laws that Changed Logic Forever,"Human understanding of logic has a long and rich history. In the past, logic was seen as inseperable from all…",Cole,Cantor's Paradise ,4
+2021-09-02 11:40:00+00:00,Pot Shaming - It Doesn't Have to Be a Thing,My Re-entry Into the World of Weed,Melissa Griffith,California Sober ,4
+2021-09-01 11:40:00+00:00,10 Different Types of a Data Scientist,One of the hottest jobs in data science,Anh Le (@thisisanhle),Code Like A Girl ,4
+2021-09-01 11:40:00+00:00,Why I'm Using VSCode for Jupyter Notebooks,"VSCode is a great Python editor and, as I accidentally discovered, good for Jupyter Notebooks, too",Alan Jones,Towards Data Science ,5
+2021-09-01 11:40:00+00:00,Fitting Cosine(Sine) functions with machine learning in Python,Using a mixture of Bayes optimization and linear regression to fit one of the most common functions in…,Carmen Adriana Martinez Barbosa,Towards Data Science ,9
+2021-09-01 11:40:00+00:00,Day 23 of the 66 Days of Data,Documenting my Data Science Learning Journey,Chanin Nantasenamat,Data Professor ,3
+2021-09-01 11:40:00+00:00,"Abraham Lincoln Lyceum Speech, NLP sentiment analysis",Performing a sentiment analysis using TextBlob. Full code available at my repo.,Michelangiolo Mazzeschi,Towards AI ,5
+2021-09-01 11:40:00+00:00,This Data Visualization is the First Step for Effective Feature Selection,Scatter pairplot is a visualization of pairwise relationships in a dataset and is the first step for…,Benjamin Obi Tayo Ph.D.,Personal Finance Analytics ,3
+2021-09-01 11:40:00+00:00,Why switch to JupyterLab from jupyter-notebook?,"First, let's talk about both Lab and Notebook separately and then will talk about the differences.",Shivam Verma,Analytics Vidhya ,3
+2021-09-01 11:40:00+00:00,Eurovision Song Contest: A Data Science point of view. Part 1 -Introduction and…,This article is part of an ongoing series about Eurovision Song Contest.,Imanol Recio Erquicia,DataDrivenInvestor ,5
+2021-09-01 11:40:00+00:00,"Topic Modeling with LSA, PSLA, LDA & lda2Vec",From matrix factorization to deep learning,Joyce Xu,NanoNets ,12
+2021-09-01 11:40:00+00:00,40 Ridiculous Comments in Source Code that People Actually Wrote,You are not the only programmer who writes weird comments,Brunette girl,JavaScript in Plain English ,6
+2021-08-31 11:40:00+00:00,A short tutorial on how to set the colors on a pandas DataFrame.,Pandas…,Roman Orac,Towards Data Science ,3
+2021-08-31 11:40:00+00:00,Hands-on for Data Science via Open Education,If you are looking to get into Data Analysis and Data Science,Ramya N,Geek Culture ,5
+2021-08-31 11:40:00+00:00,An Example of a Data Science Pipeline in Python on Bike Sharing Dataset,Bike Sharing Machine Learning Project,George Pipis,Level Up Coding ,7
+2021-08-31 11:40:00+00:00,3 ways to clean your HTML text for NLP text pre-processing,How to remove the HTML tags from your corpus for building your NLP data-set,Lars Nielsen,MLearning.ai ,2
+2021-08-31 11:40:00+00:00,A Friendly Guide to NLP: TF-IDF With Python Example,Compare implementation with Scikit-Learn's TfidfVectorizer,Eugenia Anello,Better Programming ,6
+2021-08-31 11:40:00+00:00,TextBlob - A Package Every Python Programmer Should Know,No need to call in the Data Scientist to perform NLP,Eric Fillion,Python in Plain English ,3
+2021-08-31 11:40:00+00:00,A Primer On Machine Learning and Data Analysis,"Hi, I'm Shaythuram a Singaporean ReactJS developer with a strong interest in Machine Learning, Data Analysis…",Shaythuram,Geek Culture ,11
+2021-08-31 11:40:00+00:00,How to bulk download data from Google Trends using Python,Google trends can be very useful for research but gathering data is cumbersome. Here is a function to…,Leonard Veillon,Start with Data Science ,4
+2021-08-31 11:40:00+00:00,How to Import Data From Multiple Text Files in Python?,"An easier way to import, rearrange, merge, and indexing data from multiple text files along with exporting…",Harish Maddukuri,Python Pandemonium ,5
+2021-08-31 11:40:00+00:00,10 Use-Cases in everyday business operations using NLP,And how spaCy v3.0 can help you get started with these use-cases,Lars Nielsen,MLearning.ai ,7
+2021-08-31 11:40:00+00:00,10 Underrated Python Packages Every Data Scientist Should Know,Make Your Life Easy With Data,Abhay Parashar,The Pythoneers ,7
+2021-08-31 11:40:00+00:00,How Procrastination Got Me Six Years in Prison,"I never thought I'd wear a prison jumpsuit. But on June 4, 2003, I was suddenly in the market for one.",Marianne Curan,The Haven ,4
+2021-08-31 11:40:00+00:00,3 Things I Learned Writing 300+ tests in a Month,I spent a month converting the app from hell to a programmers dream - here's the important things that I…,Anthony Oleinik,Level Up Coding ,5
 2021-08-30 11:40:00+00:00,Towards Better Data Visualizations and Graphics,Design principles for creating data-based graphics and visuals,Prashant Mudgal,Towards Data Science ,5
 2021-08-30 11:40:00+00:00,Making Sense of 33 Million Rows of Instacart Data: Exploratory Data Analysis…,Instacart is one of the hottest Silicon Valley startups of the last decade and is now valued at whopping $39…,Vijay Vankayalapati,Geek Culture ,6
 2021-08-30 11:40:00+00:00,Data Science Learning Path with Python,"I often receive messages from new members of Jakarta AI Research Discord Server, ""where do I start to learn…",Andreas Chandra,Data Folks Indonesia ,3
