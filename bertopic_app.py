@@ -7,6 +7,8 @@ warnings.filterwarnings("ignore")
 import re
 from tqdm import tqdm
 from quickstart import get_service, get_data
+import contractions
+import string
 import demoji
 import nltk
 nltk.download('stopwords')
@@ -81,25 +83,37 @@ def load_data():
     return data
 
 def preprocess(text_col):
+    """This function will apply NLP preprocessing lambda functions over a pandas series such as df['text'].
+       These functions include converting text to lowercase, removing emojis, expanding contractions, removing punctuation,
+       removing numbers, removing stopwords, lemmatization, etc."""
+    
+    # convert to lowercase
+    text_col = text_col.apply(lambda x: ' '.join([w.lower() for w in x.split()]))
+    
     # remove emojis
     text_col = text_col.apply(lambda x: demoji.replace(x, ""))
+    
+    # expand contractions  
+    text_col = text_col.apply(lambda x: ' '.join([contractions.fix(word) for word in x.split()]))
 
     # remove punctuation
-    text_col = text_col.apply(lambda x: "".join([i for i in x if i not in string.punctuation]))
+    text_col = text_col.apply(lambda x: ''.join([i for i in x if i not in string.punctuation]))
+    
+    # remove numbers
+    text_col = text_col.apply(lambda x: ' '.join(re.sub("[^a-zA-Z]+", " ", x).split()))
 
     # remove stopwords
-    stopwords = nltk.corpus.stopwords.words('english')
-    stopwords.remove('not')
-    stopwords.remove('no')
-    text_col = text_col.apply(lambda x: ' '.join([w.strip() for w in x.split() if w not in stopwords]))
+    stopwords = [sw for sw in list(nltk.corpus.stopwords.words('english')) + ['thing'] if sw not in ['not']]
+    text_col = text_col.apply(lambda x: ' '.join([w for w in x.split() if w not in stopwords]))
 
     # lemmatization
     text_col = text_col.apply(lambda x: ' '.join([WordNetLemmatizer().lemmatize(w) for w in x.split()]))
 
     # remove short words
-    text_col = text_col.apply(lambda x: ' '.join([w for w in x.split() if len(w.strip()) >= 3]))
+    text_col = text_col.apply(lambda x: ' '.join([w.strip() for w in x.split() if len(w.strip()) >= 3]))
 
     return text_col
+
 
 @st.cache
 def make_wordcloud(df):
@@ -124,8 +138,8 @@ def make_wordcloud(df):
 
 @st.cache(allow_output_mutation=True)
 def get_topic_model(df):
-    text = cleaned_df['text'].to_list()
-    dates = cleaned_df['date'].apply(lambda x: pd.Timestamp(x))
+    text = df['text'].to_list()
+    dates = df['date'].apply(lambda x: pd.Timestamp(x))
     topic_model = BERTopic(min_topic_size=len(text) // 100, n_gram_range=(1,3), verbose=False)
     topics, _ = topic_model.fit_transform(text)
     return text, dates, topic_model, topics
@@ -137,7 +151,7 @@ st.sidebar.caption('Make sure the csv contains a column titled "date" and a colu
 st.sidebar.markdown("""---""")
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
-    st.write(df)
+    # st.write(df)
 elif st.sidebar.button('Load demo data'):
     data_load_state = st.text('Loading data...')
     data = load_data()
@@ -153,13 +167,11 @@ elif st.sidebar.button('Load demo data'):
 if df is not None:
     # concatenate title and subtitle columns
     data_clean_state = st.text('Cleaning data...')
-    df['text'] = preprocess(df['text'])
+    # df['text'] = preprocess(df['text'])
     cleaned_df = df[['date', 'text']]
+    cleaned_df = cleaned_df.dropna(subset=['text'])
+    st.write(len(cleaned_df), "total documents")
     data_clean_state.text('Cleaning data... done!')
-
-    # st.write(df)
-    # df.to_csv('must_reads_MIT_download.csv', index=False)
-    # st.write(make_wordcloud(df))
 
     tm_state = st.text('Modeling topics...')
     text, dates, topic_model, topics = get_topic_model(cleaned_df)
@@ -180,10 +192,12 @@ if df is not None:
                                                     timestamps=dates, 
                                                     global_tuning=True, 
                                                     evolution_tuning=True, 
-                                                    nr_bins=len(df['date'].unique()))
+                                                    nr_bins=len(cleaned_df['date'].unique()) // 7)
     st.write(topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=10))
 
     st.write(topic_model.visualize_barchart(top_n_topics=9, n_words=5, height=800))
+
+    st.write(topic_model.visualize_term_rank())
 
     new_df = cleaned_df.copy()
     new_df['topic'] = new_df['text'].apply(lambda x: topic_model.find_topics(x)[0][0])
