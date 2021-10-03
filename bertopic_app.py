@@ -208,8 +208,9 @@ if df is not None:
     # new_df['topic'] = new_df['text'].apply(lambda x: topic_model.find_topics(x)[0][0])
     # st.write(new_df)
 
-    str_input = st.text_input('Enter a word or phrase to find nearest topic: ', value='regex')
-    st.write(topic_model.find_topics(str_input))
+    # TODO: need to figure out how to cache this stuff and not re-render whole page
+    # str_input = st.text_input('Enter a word or phrase to find nearest topic: ', value='regex')
+    # st.write(topic_model.find_topics(str_input))
     
-    num_input = st.number_input('Enter a topic number: ', value=3, min_value=0, max_value=len(topics))
-    st.write(topic_model.get_representative_docs(num_input))
+    # num_input = st.number_input('Enter a topic number: ', value=3, min_value=0, max_value=len(topics))
+    # st.write(topic_model.get_representative_docs(num_input))
