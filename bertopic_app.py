@@ -144,6 +144,23 @@ def get_topic_model(df):
     topics, _ = topic_model.fit_transform(text)
     return text, dates, topic_model, topics
 
+@st.cache(allow_output_mutation=True)
+def get_intertopic_dist_map(topic_model):
+    return topic_model.visualize_topics()
+
+@st.cache(allow_output_mutation=True)
+def get_topics_over_time(text, topics, dates, topic_model):
+    topics_over_time = topic_model.topics_over_time(docs=text, 
+                                                    topics=topics, 
+                                                    timestamps=dates, 
+                                                    global_tuning=True, 
+                                                    evolution_tuning=True, 
+                                                    nr_bins=len(set(dates)) // 7)
+    return topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=10)
+
+@st.cache(allow_output_mutation=True)
+def get_topic_keyword_barcharts(topic_model):
+    return topic_model.visualize_barchart(top_n_topics=9, n_words=5, height=800)
 
 df = None
 uploaded_file = st.sidebar.file_uploader('Choose a CSV file')
@@ -154,15 +171,13 @@ if uploaded_file is not None:
     # st.write(df)
 elif st.sidebar.button('Load demo data'):
     data_load_state = st.text('Loading data...')
-    data = load_data()
+    df = pd.read_csv('./cleaned_data/medium-suggested-cleaned.csv')
     data_load_state.text('Loading data... done!')
-    # if st.checkbox('Preview the data'):
-    #     st.subheader('5 rows of raw data')
-    #     st.write(data[:5])
+    if st.checkbox('Preview the data'):
+        st.subheader('5 rows of raw data')
+        st.write(data[:5])
 
-    df = pd.DataFrame(data, columns = ['date', 'title', 'subtitle', 'source'])
-    df['text'] = df[['title', 'subtitle']].agg(' '.join, axis=1)
-    st.write(df.head())
+    # st.write(df.head())
 
 if df is not None:
     # concatenate title and subtitle columns
@@ -180,31 +195,21 @@ if df is not None:
     freq = topic_model.get_topic_info(); 
     st.write(freq.head(10))
 
-    # st.write('Take a closer look at frequent topics')
-    # topic_num = st.number_input('Select a topic number', min_value=0, max_value=len(freq), value=3)
-    # topic_nr = freq.iloc[topic_num]["Topic"]  # We select a frequent topic
-    # st.write(topic_model.get_topic(topic_nr))   # You can select a topic number as shown above
+    fig1 = get_intertopic_dist_map(topic_model)
+    st.write(fig1)
 
-    st.write(topic_model.visualize_topics())
+    fig2 = get_topics_over_time(text, topics, dates, topic_model)
+    st.write(fig2)
 
-    topics_over_time = topic_model.topics_over_time(docs=text, 
-                                                    topics=topics, 
-                                                    timestamps=dates, 
-                                                    global_tuning=True, 
-                                                    evolution_tuning=True, 
-                                                    nr_bins=len(cleaned_df['date'].unique()) // 7)
-    st.write(topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=10))
+    fig3 = get_topic_keyword_barcharts(topic_model)
+    st.write(fig3)
 
-    st.write(topic_model.visualize_barchart(top_n_topics=9, n_words=5, height=800))
+    # new_df = cleaned_df.copy()
+    # new_df['topic'] = new_df['text'].apply(lambda x: topic_model.find_topics(x)[0][0])
+    # st.write(new_df)
 
-    st.write(topic_model.visualize_term_rank())
-
-    new_df = cleaned_df.copy()
-    new_df['topic'] = new_df['text'].apply(lambda x: topic_model.find_topics(x)[0][0])
-    st.write(new_df)
-
-    # str_input = st.text_input('Enter a word or phrase to find nearest topic: ', value='taliban')
-    # st.write(topic_model.find_topics(str_input))
+    str_input = st.text_input('Enter a word or phrase to find nearest topic: ', value='regex')
+    st.write(topic_model.find_topics(str_input))
     
     num_input = st.number_input('Enter a topic number: ', value=3, min_value=0, max_value=len(topics))
     st.write(topic_model.get_representative_docs(num_input))
