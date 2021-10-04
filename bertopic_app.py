@@ -168,6 +168,7 @@ st.sidebar.caption('Make sure the csv contains a column titled "date" and a colu
 st.sidebar.markdown("""---""")
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
+    print(df.head().to_markdown())
     # st.write(df)
 elif st.sidebar.button('Load demo data'):
     data_load_state = st.text('Loading data...')
@@ -182,7 +183,7 @@ elif st.sidebar.button('Load demo data'):
 if df is not None:
     # concatenate title and subtitle columns
     data_clean_state = st.text('Cleaning data...')
-    # df['text'] = preprocess(df['text'])
+    df['text'] = preprocess(df['text'].astype(str))
     cleaned_df = df[['date', 'text']]
     cleaned_df = cleaned_df.dropna(subset=['text'])
     st.write(len(cleaned_df), "total documents")
