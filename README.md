@@ -20,7 +20,7 @@ Using the Gmail API to topic model my recommended Medium reads
 
 ![topic word scores](./figures/topic_word_scores.gif)
 
-## Good Riddance :wave
+## Good Riddance 👋
 
 <img src="./figures/wordcloud.png" width="600"/>
 
